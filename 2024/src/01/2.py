@@ -4,8 +4,7 @@ def getNumAmnts(ls: list[int]) -> dict:
     #   value = amount number occurs in list
     numAmnts = {}
 
-    # sets only contain each element once
-    # removes useless duplicate numbers
+    # set removes unnecessary duplicate numbers
     for i in set(ls):
         counter = 0
         for j in ls:
@@ -33,4 +32,4 @@ for element in locList1:
     except KeyError:
         pass
 
-print(sim_score)
+print(f"The two lists have a similarity score of {sim_score}.")

@@ -32,4 +32,4 @@ delta = 0
 for i in range(len(locList1)):
     delta += abs(locList1[i] - locList2[i])
 
-print(delta)
+print(f"The total distance between the location lists is {delta}.")
